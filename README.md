@@ -11,8 +11,27 @@ AD helps in streamlining IT administration and enhancing security by ensuring th
 
 ![image](https://github.com/NRM10101/Active-Directory-/assets/126091408/d16042fc-e773-4e71-aee2-8bd4c55d1c75)
 
-# Insatall Splunk and Sysmon
+# Install Splunk and Sysmon
 
+### Splunk Universal Forwarder
+The Splunk Universal Forwarder is a lightweight version of Splunk designed to collect and forward log data to a Splunk instance (like Splunk Enterprise or Splunk Cloud) for indexing and analysis. It is optimized for performance and efficiency, with minimal impact on the host system. Key features include:
+
+1. **Data Collection:** Gathers log data from various sources, including files, directories, and network ports.
+2. **Data Forwarding:** Sends collected data to a central Splunk server for processing and indexing.
+3. **Lightweight:** Designed to be resource-efficient, making it suitable for deployment on numerous endpoints.
+4. **Security:** Ensures secure data transmission using encryption.
+
+### Sysmon (System Monitor)
+Sysmon is a Windows system service and driver that logs detailed system activity to the Windows event log. It is part of the Sysinternals suite and is commonly used for advanced system monitoring and forensic analysis. Key features include:
+
+1. **Process Creation Logging:** Records details about new processes, including command line arguments and executable hashes.
+2. **Network Connection Logging:** Logs TCP and UDP network connections.
+3. **File Creation Time Changes:** Monitors and logs changes to file creation times to detect tampering.
+4. **Registry Event Logging:** Tracks changes to the Windows Registry.
+5. **Event Tagging:** Tags events with unique identifiers for easier correlation and analysis.
+
+### Integration of Splunk Universal Forwarder and Sysmon
+Sysmon generates detailed logs about system activity, which can be collected and forwarded by the Splunk Universal Forwarder to a Splunk server. This integration allows for advanced monitoring, analysis, and visualization of security-related events, helping organizations to detect and respond to potential threats more effectively.
 ## Install Splunk Universal Folder in Target Machine and Our Server
 
 Target Machine
