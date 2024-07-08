@@ -109,6 +109,8 @@ Sysmon generates detailed logs about system activity, which can be collected and
    
    Anytime you update inputs.conf file you must restart splunk universal folder service
 
+Finally now you have Integrated of Splunk Universal Forwarder and Sysmon on Windows Server and Target machine...
+
    
 
 
