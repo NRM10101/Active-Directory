@@ -33,6 +33,8 @@ Sysmon is a Windows system service and driver that logs detailed system activity
 ### Integration of Splunk Universal Forwarder and Sysmon
 Sysmon generates detailed logs about system activity, which can be collected and forwarded by the Splunk Universal Forwarder to a Splunk server. This integration allows for advanced monitoring, analysis, and visualization of security-related events, helping organizations to detect and respond to potential threats more effectively.
 ## Install Splunk Universal Folder in Target Machine and Our Server
+![image](https://github.com/NRM10101/Active-Directory-/assets/126091408/b21e8011-0428-4421-b5d4-6e508cb0d579)
+
 
 Target Machine
 1. Changed the hostname as Target-PC
