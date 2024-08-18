@@ -3,10 +3,15 @@
 Active Directory (AD) is a directory service developed by Microsoft for Windows domain networks. It is used for managing permissions and access to network resources. AD stores data as objects, including users, groups, and devices, and organizes them into a hierarchical structure. Key features include:
 
 Centralized Management: Provides a single point of management for network resources.
+
 Authentication and Authorization: Manages user login and access permissions.
+
 Group Policy: Allows administrators to implement specific configurations for users and computers.
+
 Scalability: Can be used in small or large-scale environments.
+
 Integration: Works with other Microsoft services and applications.
+
 AD helps in streamlining IT administration and enhancing security by ensuring that only authorized users have access to resources.
 
 ![image](https://github.com/NRM10101/Active-Directory-/assets/126091408/d16042fc-e773-4e71-aee2-8bd4c55d1c75)
