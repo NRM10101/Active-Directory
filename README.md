@@ -55,16 +55,21 @@ Sysmon generates detailed logs about system activity, which can be collected and
    ![image](https://github.com/NRM10101/Active-Directory-/assets/126091408/198589e7-ea6a-442c-8a19-886f9ffb8597)
 
 5. Now download the Sysmon
+   
    Sysmon (System Monitor) is a Windows service and driver that logs detailed system activity to the event log. It tracks process creations, network connections, and changes to file creation times, helping to detect and investigate malicious activity. It's part of the Sysinternals suite and is used for advanced monitoring and forensic analysis.
 
-   Sysmon configuration we use  https://github.com/olafhartong/sysmon-modular 
+   Sysmon configuration we use  https://github.com/olafhartong/sysmon-modular
+   
    Download sysmonconfig.xml
+   
    Now install the sysmon with downloaded configuration file
 
    ![image](https://github.com/NRM10101/Active-Directory-/assets/126091408/6587b4fb-a91f-4a8d-b3fd-293f2659c550)
 
-   Now we need to instruct our splunk forwarder on what we want to send over to our Splunk Server
+   Now we need to instruct our splunk forwarder on what we want to send over to our Splunk Server.
+   
    To do this we must configure a file called inputs.conf
+   
    For this we use inputs.conf file from github
    
    ![image](https://github.com/NRM10101/Active-Directory-/assets/126091408/31c395a3-e13f-46ac-80db-944dcc47caa8)
@@ -86,7 +91,9 @@ Sysmon generates detailed logs about system activity, which can be collected and
    ![image](https://github.com/NRM10101/Active-Directory-/assets/126091408/f8d7bad6-3118-41e0-a27a-5484914a8712)
 
    Create index named endpoint
+   
    Now we should make sure that splunk server to recieve data
+   
    >Forwarding and Receiving
    
     ![image](https://github.com/NRM10101/Active-Directory-/assets/126091408/05c1682a-16ee-4175-98e0-3f9ed9bf9aab)
