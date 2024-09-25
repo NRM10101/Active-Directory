@@ -78,3 +78,6 @@ Before you begin, ensure your Ubuntu server meets the following requirements:
    sudo /opt/splunk/bin/splunk status
    ```
 
+   ![image](https://github.com/user-attachments/assets/67b2ba21-0ea0-49c6-ac02-f4c307ee145f)
+
+
