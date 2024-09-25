@@ -1,7 +1,3 @@
-Here's the Splunk server setup section formatted as a `.md` file for a GitHub README:
-
----
-
 ### 🐧 Setting Up Splunk Server on Ubuntu
 
 This section outlines the steps to install and configure the **Splunk Server** on an **Ubuntu** system.
@@ -82,6 +78,3 @@ Before you begin, ensure your Ubuntu server meets the following requirements:
    sudo /opt/splunk/bin/splunk status
    ```
 
----
-
-This will format neatly in your GitHub README.md file. Let me know if you need any additional details!
